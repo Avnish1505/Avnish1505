@@ -1,4 +1,4 @@
-# Hi, I'm Avnish Singh
+# Hi, I'm Avnish 
 
 AI/ML Engineer focused on LLMs, RAG systems, and agentic architectures. Final-year B.Tech CSE student, currently building production-grade AI systems and applying for AI/ML Engineer roles in India, remote, and Japan.
 

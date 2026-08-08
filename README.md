@@ -39,5 +39,5 @@ AI/ML Engineer focused on LLMs, RAG systems, and agentic architectures. Final-ye
 
 ## Find me
 
-- Portfolio: [avnishsingh.vercel.app](https://homepage.avnishsingh150606.workers.dev/en)
+- Portfolio: [avnishsingh.app](https://homepage.avnishsingh150606.workers.dev/en)
 - LinkedIn: [avnish-singh-a94772309](https://linkedin.com/in/avnish-singh-a94772309)

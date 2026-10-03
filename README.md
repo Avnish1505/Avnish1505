@@ -4,11 +4,11 @@ AI/ML Engineer focused on LLMs, RAG systems, and agentic architectures. Final-ye
 
 ## What I'm working on
 
-**[AegisOps AI](https://github.com/Avnish1505/aegisops-ai)** — A deterministic safety-gated AI system for crisis decision support. Combines a rule-based safety layer with an LLM/RAG incident commander, FastAPI + WebSocket backend, and a React dashboard with human-approval workflows. Unit and API acceptance tests run in CI alongside Ruff and mypy. Currently extending it with an Implementation Integrity Analyzer to detect plan-vs-execution mismatches in AI coding agents.
+**[AegisOps AI](https://github.com/Avnish1505/aegisops-ai)** · [Engineering blog](https://avnish1505.github.io/aegisops-ai-blog/) — A deterministic safety-gated AI system for crisis decision support. Combines a rule-based safety layer with an LLM/RAG incident commander, FastAPI + WebSocket backend, and a React dashboard with human-approval workflows. Unit and API acceptance tests run in CI alongside Ruff and mypy. Currently extending it with an Implementation Integrity Analyzer to detect plan-vs-execution mismatches in AI coding agents.
 
-**[Cancer Fusion AI](https://github.com/Avnish1505/cancer-fusion-ai)** — Multimodal skin cancer classifier combining ResNet50 image features with patient metadata (HAM10000 dataset). Macro-F1 ~0.73, with Grad-CAM for explainability. Deployed as a FastAPI + React application.
+**[Cancer Fusion AI](https://github.com/Avnish1505/cancer-fusion-ai)** · [Engineering blog](https://avnish1505.github.io/Cancer-Fusion-AI-blog/) — Multimodal skin cancer classifier combining ResNet50 image features with patient metadata (HAM10000 dataset). Macro-F1 ~0.73, with Grad-CAM for explainability. Deployed as a FastAPI + React application.
 
-**[omitbench](https://github.com/Avnish1505/Omitbench)** — A benchmark and deterministic detector for silent omissions in AI coding-agent patches. Built a 310-instance labelled corpus by mutating real merged commits across 8 Python libraries, so ground truth costs zero API spend. Headline result: a mid-tier LLM judge beats the deterministic detector overall (paired MCC −0.202, 95% CI excluding zero) — reported as the honest finding, not hidden. CI enforces a precision floor on every push.
+**[omitbench](https://github.com/Avnish1505/Omitbench)** · [Engineering blog](https://avnish1505.github.io/omitbench-engineering-blog/) — A benchmark and deterministic detector for silent omissions in AI coding-agent patches. Built a 310-instance labelled corpus by mutating real merged commits across 8 Python libraries, so ground truth costs zero API spend. Headline result: a mid-tier LLM judge beats the deterministic detector overall (paired MCC −0.202, 95% CI excluding zero) — reported as the honest finding, not hidden. CI enforces a precision floor on every push.
 
 **[AgentGrade](https://github.com/Avnish1505/agentgrade)** — An Agentforce agent for B2B order and returns operations, with a deterministic refund guardrail written in Agent Script, Apex actions for order lookup, return windows, refunds and escalation, and an external Python harness that scores routing, action-sequence and grounding failures through the Agent API. A 70-case suite ran with zero errors at 6.3s p95 per full session. The main finding is a negative one: across 93 test sessions the deterministic return-window check never fired, so the gate is correct as written but unreachable at runtime in this org. Metrics that depend on the platform's session traces are reported as untestable rather than given a fake pass rate, and a Streamlit dashboard shows them the same way.
 
@@ -19,23 +19,30 @@ AI/ML Engineer focused on LLMs, RAG systems, and agentic architectures. Final-ye
 ## Background
 
 - Research paper, *"Emergence of Artificial Intelligence in Law and Legal Technology,"* accepted at ADG 2026 International Conference
+- Preprint, [*"Detecting Silent Implementation Integrity Failures in AI-Generated Code"*](https://avnish1505.github.io/iia-preprint/), arXiv submission pending
 - Learning Japanese alongside my technical work, as part of applying to roles in Japan
 
 ## Skills
 
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&logo=python)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat-square&logo=javascript)
+![TypeScript](https://img.shields.io/badge/-TypeScript-black?style=flat-square&logo=typescript)
+![SQL](https://img.shields.io/badge/-SQL-black?style=flat-square)
 ![PyTorch](https://img.shields.io/badge/-PyTorch-black?style=flat-square&logo=pytorch)
+![TensorFlow](https://img.shields.io/badge/-TensorFlow-black?style=flat-square&logo=tensorflow)
 ![Scikit--learn](https://img.shields.io/badge/-Scikit--learn-black?style=flat-square&logo=scikitlearn)
 ![XGBoost](https://img.shields.io/badge/-XGBoost-black?style=flat-square)
 ![LangChain](https://img.shields.io/badge/-LangChain-black?style=flat-square)
 ![ChromaDB](https://img.shields.io/badge/-ChromaDB-black?style=flat-square)
+![LLM Evaluation](https://img.shields.io/badge/-LLM_Evaluation-black?style=flat-square)
 ![pandas](https://img.shields.io/badge/-pandas-black?style=flat-square&logo=pandas)
 ![NumPy](https://img.shields.io/badge/-NumPy-black?style=flat-square&logo=numpy)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-black?style=flat-square&logo=postgresql)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-black?style=flat-square&logo=fastapi)
 ![Django](https://img.shields.io/badge/-Django-black?style=flat-square&logo=django)
 ![React](https://img.shields.io/badge/-React-black?style=flat-square&logo=react)
 ![Docker](https://img.shields.io/badge/-Docker-black?style=flat-square&logo=docker)
+![AWS](https://img.shields.io/badge/-AWS-black?style=flat-square)
 ![Git](https://img.shields.io/badge/-Git-black?style=flat-square&logo=git)
 ![Linux](https://img.shields.io/badge/-Linux-black?style=flat-square&logo=linux)
 ![Japanese](https://img.shields.io/badge/-日本語_(learning)-black?style=flat-square)
